@@ -15,7 +15,7 @@
 %%--------------------------------------------------------------------
 
 -module(emqx_kafka_bridge_app).
-
+-emqx_plugin(?MODULE).
 -behaviour(application).
 
 %% Application callbacks
